@@ -1,4 +1,3 @@
-// src/App.tsx
 import React, { useState } from 'react';
 import { TestButton } from './TestButton';
 import { appStyles } from './styles';
@@ -10,7 +9,7 @@ export const App: React.FC = () => {
         <div style={appStyles.container}>
             <TestButton 
                 onClick={() => setClicked(!clicked)}
-                text={clicked ? 'OK' : 'TEST'}
+                text={clicked ? 'OK' : 'Test'}
             />
         </div>
     );
